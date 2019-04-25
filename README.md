@@ -28,6 +28,8 @@ Install required dependencies with `npm install`.
  
 Run development server with `npm start`.
 
+If development server starts successfully navigate to http://localhost:3000
+
 ## Data source
 
 If you were unable to finish Exercise 02:
