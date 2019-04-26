@@ -1,6 +1,6 @@
 # Exercise 03
 
-This application is designed to run against the server built in Exercise 02.
+This application is an AngularJS frontend for the server built in Exercise 02.
 
 This application displays filterable list of employees.
 
@@ -22,13 +22,13 @@ Your task is to expand this application.
 # Technical details
 
 ## Building and running
-This sample uses webpack.
+This sample is build with webpack.
  
-Install required dependencies with `npm install`.
+ 1. Install required dependencies with `npm install`.
  
-Run development server with `npm start`.
+ 2. Run development server with `npm start`.
 
-If development server starts successfully navigate to http://localhost:3000
+ 3. If development server starts successfully navigate to http://localhost:3000
 
 ## Data source
 
