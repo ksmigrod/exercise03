@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ae43f46-5e39-43a5-891f-f82cb80eafef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../hr/target/" />
@@ -19,12 +18,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="847">
-                <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
-                <folding>
-                  <element signature="imports" expanded="true" />
-                  <element signature="imports" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="162">
+                <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -188,6 +183,7 @@
       <workItem from="1548970369201" duration="2178000" />
       <workItem from="1556188746182" duration="2434000" />
       <workItem from="1556225162324" duration="111000" />
+      <workItem from="1556248216495" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="Exercise ready to solve.">
       <created>1548972347731</created>
@@ -210,11 +206,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556199636854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Literówki w README.md">
+      <created>1556248251858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556248251859</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Dalsze poprawki do README.md">
+      <created>1556248471872</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556248471872</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7130000" />
+    <option name="totallyTimeSpent" value="7449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -267,7 +277,9 @@
     <MESSAGE value="Exercise ready to solve." />
     <MESSAGE value="Nowe polecenia na rekrutację 26 kwietnia 2019r." />
     <MESSAGE value="Update of dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update of dependencies." />
+    <MESSAGE value="Literówki w README.md" />
+    <MESSAGE value="Dalsze poprawki do README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dalsze poprawki do README.md" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../angular-es6-webpack-starter/app/index.ejs">
@@ -541,12 +553,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="847">
-            <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
-            <folding>
-              <element signature="imports" expanded="true" />
-              <element signature="imports" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="162">
+            <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
