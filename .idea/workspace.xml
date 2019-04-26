@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ae43f46-5e39-43a5-891f-f82cb80eafef" name="Default Changelist" comment="Code ready to solve.">
+    <list default="true" id="7ae43f46-5e39-43a5-891f-f82cb80eafef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../hr/target/" />
@@ -20,9 +19,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="540">
-                <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+              <first_editor relative-caret-position="847">
+                <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
                 <folding>
+                  <element signature="imports" expanded="true" />
                   <element signature="imports" expanded="true" />
                 </folding>
               </first_editor>
@@ -91,65 +91,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="exercise03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise03" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise03" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise03" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise03" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise03" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="employees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise03" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise03" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -244,7 +186,8 @@
       <updated>1548967951333</updated>
       <workItem from="1548967952551" duration="2407000" />
       <workItem from="1548970369201" duration="2178000" />
-      <workItem from="1556188746182" duration="2357000" />
+      <workItem from="1556188746182" duration="2434000" />
+      <workItem from="1556225162324" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="Exercise ready to solve.">
       <created>1548972347731</created>
@@ -260,17 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1556197764983</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update of dependencies.">
+      <created>1556199636854</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556199636854</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6942000" />
+    <option name="totallyTimeSpent" value="7130000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.21614152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
@@ -280,7 +229,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="IDEtalk Messages" />
+      <window_info id="UI Designer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
@@ -295,8 +244,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.3291536" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="IDEtalk" />
+      <window_info anchor="bottom" id="IDEtalk Messages" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,6 +255,8 @@
       <window_info anchor="right" id="JSF" order="7" />
       <window_info anchor="right" id="CDI" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="IDEtalk" order="10" />
+      <window_info anchor="right" id="Palette" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +266,8 @@
     <MESSAGE value="Code ready to solve." />
     <MESSAGE value="Exercise ready to solve." />
     <MESSAGE value="Nowe polecenia na rekrutację 26 kwietnia 2019r." />
-    <option name="LAST_COMMIT_MESSAGE" value="Nowe polecenia na rekrutację 26 kwietnia 2019r." />
+    <MESSAGE value="Update of dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update of dependencies." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../angular-es6-webpack-starter/app/index.ejs">
@@ -590,9 +541,10 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="540">
-            <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+          <first_editor relative-caret-position="847">
+            <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
             <folding>
+              <element signature="imports" expanded="true" />
               <element signature="imports" expanded="true" />
             </folding>
           </first_editor>

@@ -1,6 +1,6 @@
 # Exercise 03
 
-This application is designed to run against server built in Exercise 02.
+This application is designed to run against the server built in Exercise 02.
 
 This application displays filterable list of employees.
 
@@ -119,7 +119,7 @@ If you were unable to finish Exercise 02:
     
     }
      ```
- 4. Run project with the following command:
+ 4. Run the project with the following command:
      ```
      mvn clean package tomee:run
      ```
