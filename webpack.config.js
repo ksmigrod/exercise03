@@ -6,7 +6,7 @@ module.exports = {
   devtool: 'source-map',
   entry: {
     app: [
-      'babel-polyfill',
+      path.join(__dirname, 'client', 'app/polyfill.js'),
       path.join(__dirname, 'client', 'app/app.js')
     ]
   },
@@ -16,7 +16,6 @@ module.exports = {
         test: /\.js$/,
         exclude: [/app\/lib/, /node_modules/],
         use: [
-          'ng-annotate-loader',
           'babel-loader'
         ]
       },
