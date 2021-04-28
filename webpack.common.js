@@ -1,5 +1,4 @@
 var path = require('path');
-var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -56,13 +55,12 @@ module.exports = {
     splitChunks: {
       cacheGroups: {
         vendor: {
-          test: /react|angluar|lodash|angularjs/,
-          chunks: "initial",
-          name: "vendor",
-          enforce: true
+          test: /[\\/]node_modules[\\/](angular|angular-ui-bootstrap|@uirouter)[\\/]/,
+          name: 'vendor',
+          chunks: 'all',
         }
       }
-    }
+    },
   },
   plugins: [
     // Injects bundles in your index.html instead of wiring all manually.
@@ -74,16 +72,9 @@ module.exports = {
       hash: true,
       chunks: ['vendor', 'app']
     })
-            //,
-
-            // Automatically move all modules defined outside of application directory to vendor bundle.
-            // If you are using more complicated project structure, consider to specify common chunks manually.
-//    new webpack.optimize.CommonsChunkPlugin({
-//      name: "vendor",
-//      minChunks: module => /node_modules/.test(module.resource)
-//    })
   ],
-  devServer: {
-    port: 3000
+  output: {
+    filename: "[name].bundle.js",
+    path: path.resolve(__dirname, 'dist'),
   }
 };
