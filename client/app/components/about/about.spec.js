@@ -1,3 +1,6 @@
+import angular from 'angular';
+import mocks from 'angular-mocks';
+
 import AboutModule from './about'
 
 describe('About', () => {
@@ -25,11 +28,9 @@ describe('About', () => {
   describe('Controller', () => {
     // controller specs
     let controller;
-    beforeEach(() => {
-      controller = $componentController('about', {
+    beforeEach(() => controller = $componentController('about', {
         $scope: $rootScope.$new()
-      });
-    });
+      }));
 
     it('has a name property', () => { // erase if removing this.name from the controller
       expect(controller).to.have.property('name');
